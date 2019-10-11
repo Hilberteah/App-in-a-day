@@ -1,0 +1,202 @@
+  
+body {
+    margin: 0px;
+    background-color: rgb(29, 29, 29);
+}
+
+
+
+.header{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    height: 150px;
+    background-image: url(pictures/backgrounds/walleye.jpg);
+    background-repeat: none;
+    background-size: 100%;
+    margin-bottom: 20px
+}
+
+
+.header > .logo img {
+    background-color: rgb(29, 29, 29);
+
+    height: 153px;
+
+    border-top-right-radius: 40px;
+    margin-right: 50px;
+
+    
+}
+
+.whitespace{
+    margin-top: 30px;
+    margin-left: 50px;
+    height: 60px;
+    width: 60px;
+    background-color: white;
+}
+
+
+.fish-tips {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 190px;
+    height: 70px;
+    margin-top: 120px;    
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color:rgb(29, 29, 29);
+    color: white;
+    font-family: 'Bungee', cursive;
+    letter-spacing: 1px;
+    font-size: 1.7em;
+    font-weight: 900;
+    transition: 0.5s;
+    margin-right: 50px;
+}
+
+.header > .fish-tips-wrapper a {
+    text-decoration: none;
+}
+
+.fish-tips-wrapper:hover .fish-tips{
+    background-color:  rgb(4, 48, 17);
+}
+
+
+.about-tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 190px;
+    height: 70px;
+    margin-top: 120px;    
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color:rgb(29, 29, 29);
+    color: white;
+    font-family: 'Bungee', cursive;
+    letter-spacing: 1px;
+    font-size: 1.5em;
+    font-weight: 900;
+    transition: 0.5s;
+    margin-right: 300px;
+    margin-right: 50px;
+
+}
+
+.header > .about-tab-wrapper a {
+    text-decoration: none;
+}
+
+
+.about-tab-wrapper:hover .about-tab{
+    background-color:  rgb(4, 48, 17);
+}
+
+.fish-shop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 190px;
+    height: 70px;
+    margin-top: 120px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    font-family: 'Bungee', cursive;
+    letter-spacing: 1px;
+    font-size: 1.7em;
+    font-weight: 900;
+    transition: 0.5s;
+    margin-right: 50px;
+}
+
+
+.shop a{
+    color: white;
+    text-decoration: none;
+}
+
+.shop:hover .fish-shop {
+    background-color:  rgb(4, 48, 17);    
+}
+
+.content {
+    display:flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Bungee', cursive;
+    line-height: 30px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato', cursive;
+    box-shadow: -17px 24px 23px 0px rgba(0,0,0,0.4);
+}
+
+.page-container {
+    display: flex;
+    justify-content: center;
+}
+
+.page-container > .content-wrapper {
+    width: 900px;
+}
+
+.page-container > .content-wrapper > #fishguy {
+    width: 280px;
+    float: left;
+}
+
+.footer {
+    height: 400px;
+    background-color: rgb(29, 29, 29);
+    box-shadow: inset 2px 10px 64px -40px rgba(255,255,255,1);
+}
+
+
+
+
+.footer > .social-media-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    border-top: 10px;
+    border-top-color: white;
+    
+    
+}
+
+.footer > .social-media-wrapper a {
+    color: rgb(230,208,118);
+    font-size: 4em;
+    transition: 0.5s;
+}
+.footer > .social-media-wrapper a:hover {
+    color: rgb(139,126,72)
+}
+.large-name h1{
+    font-size: 100px;
+    margin-top: 10px;
+    margin-bottom: 0px;;
+    font-family: 'Bungee', cursive;
+    height: 200px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.copyright {
+   display: flex;
+    justify-content: center;
+    font-size:0.6rem;
+    color: rgb(54, 54, 54);
+}
