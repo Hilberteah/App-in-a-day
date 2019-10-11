@@ -20,3 +20,23 @@
 
 
 
+.features {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(29, 29, 29);
+    height: 200px;
+    
+}
+
+.features h1{
+    font-size: 30px;
+    background-color: rgb(230,208,118);
+    height: 130px;
+    width: 550px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bungee', cursive;
+    
+}
