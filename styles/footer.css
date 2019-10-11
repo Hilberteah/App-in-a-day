@@ -1,0 +1,46 @@
+.footer {
+    height: 400px;
+    background-color: rgb(29, 29, 29);
+    box-shadow: inset 2px 25px 64px -37px rgba(255,255,255,1);
+}
+
+
+
+
+.footer > .social-media-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    border-top: 10px;
+    border-top-color: white;
+    
+    
+}
+
+.footer > .social-media-wrapper a {
+    color: rgb(230,208,118);
+    font-size: 4em;
+    transition: 0.5s;
+}
+.footer > .social-media-wrapper a:hover {
+    color: rgb(139,126,72)
+}
+.large-name h1{
+    font-size: 100px;
+    margin-top: 10px;
+    margin-bottom: 0px;;
+    font-family: 'Bungee', cursive;
+    height: 200px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.copyright {
+   display: flex;
+    justify-content: center;
+    font-size:0.6rem;
+    color: rgb(54, 54, 54);
+}
