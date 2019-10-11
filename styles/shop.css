@@ -1,0 +1,47 @@
+.display > .label{
+    padding: 15px;
+    font-size: 25px;
+    color: white;
+    font-family: 'Bungee', 'Cursive';
+    background-color: rgb(29, 29, 29);
+}
+
+.display > .items {
+    margin-top: 14px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    column-gap: 5px;
+    row-gap: 0px;
+}
+
+.display > .items img {
+    height: 250px;
+}
+
+.display > .items{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Bungee', 'Cursive';
+}
+
+.display > .boats{
+    margin-top: 65px;
+    margin-bottom: 39px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    column-gap: 5px;
+    row-gap: 0px;
+}
+
+
+.display > .boats{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Bungee', 'Cursive';
+}
+
+.display > .boats img {
+    height: 160px;
+}
