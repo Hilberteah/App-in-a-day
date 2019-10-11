@@ -1,0 +1,97 @@
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    background-image: url(../pictures/backgrounds/walleye.jpg);
+    background-repeat: none;
+    background-size: 100%;
+    
+}
+
+
+.header > .logo img {
+    background-color: rgb(29, 29, 29);
+    /* margin-left:15px; */
+    height: 153px;
+    /* border-bottom-right-radius: 20px; */
+    border-top-right-radius: 40px;
+
+    
+}
+
+/* .header .left-column a {
+    margin-top: 45px;
+    margin-left: -110px;
+    font-size: 9rem;
+    color: #FF0000;
+    
+    
+
+} */
+.whitespace{
+    margin-top: 30px;
+    margin-left: 50px;
+    height: 60px;
+    width: 60px;
+    background-color: white;
+}
+
+
+.fish-tips {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 190px;
+    height: 70px;
+    margin-top: 101px;    
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color:rgb(29, 29, 29);
+    color: white;
+    font-family: 'Bungee', cursive;
+    letter-spacing: 1px;
+    font-size: 1.7em;
+    font-weight: 900;
+    transition: 0.5s;
+}
+
+.header > .fish-tips-wrapper a {
+    text-decoration: none;
+}
+
+.fish-tips-wrapper:hover .fish-tips{
+    background-color:  rgb(4, 48, 17);
+}
+
+
+.about-tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 190px;
+    height: 70px;
+    margin-top: 101px;    
+    margin-left: -120px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color:rgb(29, 29, 29);
+    color: white;
+    font-family: 'Bungee', cursive;
+    letter-spacing: 1px;
+    font-size: 1.5em;
+    font-weight: 900;
+    transition: 0.5s;
+    margin-right: 300px;
+
+}
+
+.header > .about-tab-wrapper a {
+    text-decoration: none;
+}
+
+
+.about-tab-wrapper:hover .about-tab{
+    background-color:  rgb(4, 48, 17);
+}

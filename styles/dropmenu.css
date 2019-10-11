@@ -1,0 +1,65 @@
+.dropbtn {
+    line-height: 50px;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    font-size: 46px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    font-family: 'Bungee', cursive;
+    font-size: 1.7rem;
+    height: 70px;
+    margin-top: 101px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transition: 0.5s;
+  }
+
+  .dropbtn:focus{
+      outline: none;
+  }
+
+
+.shop-drop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: inline-block;
+    height: 193px;
+    
+}
+
+.shop-options{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+  
+.shop-options a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Bungee', cursive;
+}
+
+.shop-options a:hover {
+    background-color: #ddd;
+    border-radius: 10px;
+}
+    
+.shop-drop:hover .shop-options {
+    display: block;
+}
+.shop-drop:hover .dropbtn {
+    background-color: rgb(4, 48, 17);
+}
